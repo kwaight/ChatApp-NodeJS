@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "description": "Demo Chat applicaiton",
+  "main": "bin/www",
+  "authors": [
+    "Kiefer Waight"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "http://localhost:3000",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8"
+  }
+}

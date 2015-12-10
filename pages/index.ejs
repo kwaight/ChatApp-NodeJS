@@ -1,0 +1,16 @@
+<% include ../partials/header %>
+    <h1>Kiefer's Chat App</h1>
+    <form ng-submit="send()">
+        <textarea class="form-control" rows="20" id="chat-data" ng-model="messages"></textarea>
+        <div class="input-group">
+        <input type="text" class="form-control" ng-model="input" placeholder="Enter Message">
+        <span class="input-group-btn">
+            <button class="btn btn-default btn-primary" type="submit">Send</button>
+        </span>
+        </div><!-- /input-group -->
+    </form>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<% include ../partials/footer %>
