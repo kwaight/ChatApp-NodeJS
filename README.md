@@ -13,5 +13,5 @@ To get rolling, follow these steps
 * Run bower install
 
 ## Run
-Simply execute the bootstrap script in bin/www.  You can use [forever](https://www.npmjs.com/package/forever-service) if you want to maintain some type of uptime.
+Simply execute the bootstrap script in bin / www.  You can use [forever](https://www.npmjs.com/package/forever-service) if you want to maintain some type of uptime.
 
